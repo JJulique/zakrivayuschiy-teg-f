@@ -31,6 +31,12 @@
   display: flex;
   place-content: center;
   align-items: center;
+  font-variation-settings: 'wght' var(--wght-main-text, 400);
+}
+
+@supports (font-variation-settings: normal) {
+  font-weight: var(--wght-main-text);
+  font-variation-settings: 'wght' var(--wght-main-text);
 }
 
 .logo {
