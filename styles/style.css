@@ -119,7 +119,7 @@
 
 @supports (-webkit-text-stroke: 1px var(--label-stroke-color, #fff)) or
   (text-stroke: 1px var(--label-stroke-color, #fff)) {
-
+    
   .watermark {
     -webkit-text-stroke: 1px var(--label-stroke-color, #fff);
     text-stroke: 1px var(--label-stroke-color, #fff);
