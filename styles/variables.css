@@ -2,9 +2,9 @@
 от ширины устройства */
 
 :root {
-    --font-inter: 'Inter Regular';
-    --font-accent: 'Press Start 2P Regular';
-    --wght-main-text: 400;
+    --font-inter: 'Inter';
+    --font-accent: 'Press Start 2P';
+    --wght-main-text: 410;
     --wght-heading: 785;
     --bg-gradient: 
         repeating-linear-gradient(to right, rgba(211 211 211 / 1) 0 2px, rgba(211 211 211 / 0) 2px 4px),
