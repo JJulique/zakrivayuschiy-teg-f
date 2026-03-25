@@ -11,6 +11,7 @@
 */
 
 .like-icon.is-liked .sparks {
+  transform-origin: center;
   animation: sparks-flash 0.3s ease-in 0.3s;
 }
 
@@ -30,6 +31,7 @@
 }
 
 .like-icon.is-liked .heart {
+  transform-origin: center;
   animation: scale 0.3s ease-in 0.1s;
 }
 

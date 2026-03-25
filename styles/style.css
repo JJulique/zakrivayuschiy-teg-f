@@ -62,7 +62,7 @@
   width: 100%;
   padding: 0;
   font-family: var(--font-accent, fantasy);
-  font-size: clamp(49px, 2.7104rem + 1.5023vw, 65px);
+  font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   line-height: 100%;
   font-weight: 400;
   text-transform: uppercase;
@@ -71,7 +71,7 @@
 
 .subtitle {
   font-family: var(--font-accent, fantasy);
-  font-size: clamp(14px, calc(12.2px + 0.5625vw), 23px);
+  font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   line-height: 1;
   font-weight: 400;
   text-transform: uppercase;
@@ -200,7 +200,6 @@
   margin: auto;
   border: none;
   outline: none;
-  transform-origin: center;
   width: 39px;
   height: 36px;
 }
@@ -262,14 +261,6 @@
 .like-icon.is-liked .main-body {
   fill: var(--animation-fill-color, red);
   transition: fill 0.3s linear 0.05s;
-}
-
-.like-icon.is-liked .heart {
-  animation: scale 0.3s ease-in 0.1s;
-}
-
-.like-icon.is-liked .sparks {
-  animation: sparks-flash 0.3s ease-in 0.3s;
 }
 
 .card__like-button {
